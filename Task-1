@@ -1,8 +1,4 @@
-/*Here's a simple implementation of a Factorial program using*/
-def fibonacci(n):
-    fib_sequence = [0, 1]
-    while len(fib_sequence) < n:
-        fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])NAME : N.SAI DEEKSHITHA
+NAME : N.SAI DEEKSHITHA
 COMPANY : CODE ALPHA
 STUDENT ID : CA/FM3/2182
 DOMAIN : PYTHON PROGRAMMING LANGUAGE
@@ -35,6 +31,11 @@ Applications :
 - Computer Science: algorithms, data structures, programming
 
 ###code##
+/*Here's a simple implementation of a Factorial program using*/
+def fibonacci(n):
+    fib_sequence = [0, 1]
+    while len(fib_sequence) < n:
+        fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
     return fib_sequence
 
 def main():
@@ -54,3 +55,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
